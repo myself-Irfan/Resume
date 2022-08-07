@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>Contact Details</h1>
+  <p>Irfan Ahmed</p>
+  <p>E-mail: ahmed.1995.irfan@gmail.com</p>
+  <p>phone: 01929574156</p>
+  <hr>
+
+  <!-- mail to sends to specified mail, enctype: text/plain means sending plain mail-->
+  <form class="" action="mailto:overlordahmed.irfan@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="yourName" value="">
+    <br>
+    <label for="phone">Your phone number:</label>
+    <input type="tel" id="phone" name="yourPhone" pattern="[0-9]{11}"> <!-- needs to be understood -->
+    <br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value="">
+    <br>
+    <label>Your Message:</label>
+    <textarea name="yourMessage" rows="5" cols="25"></textarea>
+    <br>
+    <label>Do you want to sign up to the email list?</label>
+    <input type="checkbox" name="yourCheck" value="">
+    <input type="submit" name="">
+  </form>
+
+</body>
+
+</html>
